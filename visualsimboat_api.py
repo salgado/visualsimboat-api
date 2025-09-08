@@ -20,9 +20,9 @@ class VisualSimBoatAPI:
         self.temp_dir = "/tmp/visualsimboat"
         self.camera_mapping = {
             "front": "camera1.png",
-            "port": "camera2.png",
-            "starboard": "camera3.png",
-            "aft": "camera4.png"
+            "starboard": "camera2.png",
+            "aft": "camera3.png",
+            "port": "camera4.png"
         }
 
         # Ensure temp directory exists
